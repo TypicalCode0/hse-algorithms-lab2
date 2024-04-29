@@ -9,7 +9,7 @@
 #include <functional>
 #include <chrono>
 #include <cmath>
-#include "structs.hpp"
+#include "src/algorithms/structs.hpp"
 
 class BruteForceAlgorithm {
 public:
