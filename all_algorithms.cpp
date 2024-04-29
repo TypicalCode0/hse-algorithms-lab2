@@ -201,7 +201,7 @@ int main() {
     std::vector<std::vector<long double>> time_preprocessing(2);
     for (int n = 1; n < 4096; n <<= 1) {
         std::vector<Rectangle> rectangles;
-        for (int i = 0; i < n; i += 2) {
+        for (int i = 0; i < n * 2; i += 2) {
             rectangles.push_back({i*10, i*10,10*(2*n - i), 10*(2*n - i)});
         }
         BruteForceAlgorithm alg1;
